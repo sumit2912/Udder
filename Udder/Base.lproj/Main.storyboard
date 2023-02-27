@@ -30,9 +30,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="6ZT-Ij-ko2">
+                                <rect key="frame" x="0.0" y="502" width="393" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="ZjK-Z7-Omy"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6ZT-Ij-ko2" secondAttribute="bottom" id="KX7-ZU-xwn"/>
+                            <constraint firstAttribute="trailing" secondItem="6ZT-Ij-ko2" secondAttribute="trailing" id="Uaq-qh-dj6"/>
+                            <constraint firstItem="6ZT-Ij-ko2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yeo-15-KVu"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -41,6 +52,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="milk" width="242.66667175292969" height="364"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
